@@ -9,7 +9,7 @@ Este curso se enfoca en llevarte de la mano desde cero hasta poder crear aplicac
 
 Cada sección del curso termina en una aplicación completa que sirve para aprender y dominar un tema en especifico, y conforme vayamos avanzando en el curso, iremos creando aplicaciones más complejas y sin darnos cuenta ya estaremos creando directivas, componentes, pipes, servicios y rutas sin darnos cuenta.
 
-Pero este curso no sólo te enseñara Angular, también conocerás sobre:
+Pero este curso no sólo se se enseña Angular, también se adquieren conocimientos:
 
 - Firebase   
 
@@ -74,3 +74,12 @@ Entre las aplicaciones que haremos en este curso están:
 - Gráficos
 
 -Subir archivos a Firebase
+
+Lo que se aprenderá:
+
+- Tener una base sólida para trabajar con Angular
+- Dominar TypeScript para crear aplicaciones en Angular
+- Aplicar los conceptos nuevos del ECMAScript 6 en nuestros proyectos de Angular
+- Crear aplicaciones en Angular siguiendo las mejores prácticas
+- Crear aplicaciones básicas en Ionic y utilizarlas en su celular (no es necesario cuentas de desarrollador)
+- Dominar las directivas, pipes, componentes, servicios y la estructura de una aplicación de Angular
