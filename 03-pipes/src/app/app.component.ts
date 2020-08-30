@@ -14,6 +14,7 @@ export class AppComponent {
   porcentaje: number = 0.235;
   salario: number = 1234.5;
   fecha: Date = new Date();
+  activar: boolean = true;
 
   idioma: string = 'es';
   videoUrl: string = 'https://www.youtube.com/embed/O9lXT_MvX_I';
