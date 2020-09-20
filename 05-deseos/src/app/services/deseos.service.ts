@@ -10,9 +10,15 @@ export class DeseosService {
 
 
   constructor() {
-    console.log('Servicio inicializado');
+
+    const lista1 = new Lista('Comprar Tomates');
+    const lista2 = new Lista('Planchar la ropa');
+
+    this.listas.push(lista1, lista2);
+
+
    }
 
-  
+
 
 }
