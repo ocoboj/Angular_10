@@ -10,10 +10,9 @@ import { DeseosService } from '../../services/deseos.service';
 })
 export class Tab1Page {
 
-  constructor( public deseosService: DeseosService, private router: Router, private alertCtrl: AlertController) {}
+  constructor(public deseosService: DeseosService, private router: Router, private alertCtrl: AlertController) { }
 
   async agregarLista() {
-    /* this.router.navigateByUrl('/tabs/tab1/agregar'); */
 
     const alert = await this.alertCtrl.create({
       header: 'Nueva Lista',
@@ -34,14 +33,16 @@ export class Tab1Page {
         },
         {
           text: 'Crear',
-          handler: ( data ) => {
+          handler: (data) => {
             console.log(data);
-            if ( data.titulo.length === 0 ) {
+            if (data.titulo.length === 0) {
               return;
             }
 
             //Tengo que crear la lista
-            this.deseosService.crearLista(data.titulo);
+            const listaId = this.deseosService.crearLista(data.titulo);
+
+            this.router.navigateByUrl(`/tabs/tab1/agregar/${listaId}`);
           }
         }
       ]
