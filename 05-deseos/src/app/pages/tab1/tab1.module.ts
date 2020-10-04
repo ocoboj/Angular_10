@@ -6,14 +6,19 @@ import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
+import { ComponentsModule } from '../../components/components.module';
+import { RouterModule } from '@angular/router';
+
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
+    ComponentsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    Tab1PageRoutingModule,
+    RouterModule.forChild([{path: '', component: Tab1Page}])
   ],
   declarations: [Tab1Page]
 })
