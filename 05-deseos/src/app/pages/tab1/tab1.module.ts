@@ -18,7 +18,7 @@ import { RouterModule } from '@angular/router';
     ComponentsModule,
     ExploreContainerComponentModule,
     Tab1PageRoutingModule,
-    RouterModule.forChild([{path: '', component: Tab1Page}])
+    RouterModule.forChild([{ path: '', component: Tab1Page }])
   ],
   declarations: [Tab1Page]
 })

@@ -17,7 +17,7 @@ import { ComponentsModule } from '../../components/components.module';
     ComponentsModule,
     ExploreContainerComponentModule,
     Tab2PageRoutingModule,
-    RouterModule.forChild([{path: '', component: Tab2Page}])
+    RouterModule.forChild([{ path: '', component: Tab2Page }])
   ],
   declarations: [Tab2Page]
 })
